@@ -2,7 +2,7 @@ Private Sub worksheet_Change(ByVal Target As Range)
 
 Dim col As Range
 
-    With ThisWorkbook.Sheets("hhees")
+    With ThisWorkbook.Sheets("sheet1")
     
         .Unprotect "1234"
         
